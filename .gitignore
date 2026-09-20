@@ -1,0 +1,10 @@
+node_modules/
+android/app/build/
+android/.gradle/
+ios/Pods/
+*.apk
+.env
+venv/
+__pycache__/
+*.pyc
+.expo/
