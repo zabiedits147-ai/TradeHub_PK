@@ -1,7 +1,7 @@
 import { io } from 'socket.io-client';
 
 // Socket.IO ke liye usually root URL use hota hai, /api ke bagair
-const SOCKET_URL = 'http://192.168.1.74:5000';
+const SOCKET_URL = 'http://192.168.10.12:5000';
 let socket = null;
 
 export const initSocket = (userId) => {

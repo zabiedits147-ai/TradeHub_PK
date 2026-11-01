@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { getProducts } from './productService';
-const BASE_URL = 'http://192.168.1.74:5000/api';
+const AI_BASE_URL = 'http://192.168.10.12:5001/api';
 
 export const searchByImage = async (base64Image) => {
   const products = await getProducts();
